@@ -30,9 +30,9 @@
     <H1 id="jazz"><img src="/images/got.png" width="240px"></H1>
     <div class="row c"  style="margin-top: 15px;">  
       <NuxtLink class="a" to="/">Home</NuxtLink> 
-      <NuxtLink class="b" to="/batallas_index">Batallas</NuxtLink>
-      <NuxtLink class="b" to="/personajes_index">Personajes</NuxtLink>
-      <NuxtLink class="b" to="/casas_index">Casas</NuxtLink>
+      <NuxtLink class="b" to="/batallas_index">Battles</NuxtLink>
+      <NuxtLink class="b" to="/personajes_index">Characters</NuxtLink>
+      <NuxtLink class="b" to="/casas_index">Houses</NuxtLink>
     </div>
   </div>
 </template>
