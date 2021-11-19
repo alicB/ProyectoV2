@@ -20,8 +20,8 @@
 }
 
 .card-img {
-  width: 100px;
-  height: 99px;
+  width: 142px;
+    height: 142px;
   border-radius: 10%;
   background-color: #b8c6e4;
 }
