@@ -21,6 +21,20 @@
 </script>
 
 <style>
+
+#font{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 23px;
+letter-spacing: -1.2px;
+word-spacing: 2.2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: italic;
+font-variant: normal;
+text-transform: capitalize;
+}
+
 table, th, td {
  
   border: 2px solid #A40808;
@@ -39,7 +53,7 @@ table, th, td {
       <img class="u-max-full-width" :src="'/images/personajes/'+personaje.image" alt="Es la cobra takataka">
     </div>
     <div class="six columns">
-     <h4>{{personaje.nombre}}</h4>
+     <h4 id=font>{{personaje.nombre}}</h4>
 	 
 	 
 	  <strong> Loyalty:</strong> {{personaje.lealtad}}<br>

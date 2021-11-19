@@ -50,7 +50,7 @@ table, th, td {
       <img class="u-max-full-width" :src="'/images/casa/'+casa.image" alt="Takataka">
     </div>
     <div class="six columns">
-     <h4 id=font>{{casa.Nombre}}</h4>
+     <h4 id=font>{{casa.nombre}}</h4>
 	  
 	  <strong> Leader:</strong><NuxtLink :to="'/personajes/personaje'+casa.id_personaje">{{casa.dirigente}}</NuxtLink> <br> 
 	 
