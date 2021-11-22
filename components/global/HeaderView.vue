@@ -32,6 +32,8 @@
       <NuxtLink class="a" to="/">Home</NuxtLink> 
       <NuxtLink class="b" to="/batallas_index">Battles</NuxtLink>
       <NuxtLink class="b" to="/personajes_index">Characters</NuxtLink>
+	  <NuxtLink class="b" to="/places_index">Places</NuxtLink>
+	  <NuxtLink class="b" to="/regions_index">Regions</NuxtLink>
       <NuxtLink class="b" to="/casas_index">Houses</NuxtLink>
     </div>
   </div>
