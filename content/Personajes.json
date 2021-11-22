@@ -47,7 +47,7 @@
         {
             "id": "4",
             "nombre": "Stannis Baratheon",
-            "id_casa": "10",
+            "id_casa": "9",
             "casa_nacimiento": "House Baratheon",
             "titulo": "King",
             "id_region": "4",
@@ -77,7 +77,7 @@
         {
             "id": "6",
             "nombre": "Renly Baratheon",
-            "id_casa": "10",
+            "id_casa": "9",
             "casa_nacimiento": "House Baratheon",
             "titulo": "King",
             "id_region": "4",
@@ -92,7 +92,7 @@
         {
             "id": "7",
             "nombre": "Tommen Baratheon",
-            "id_casa": "10",
+            "id_casa": "9",
             "casa_nacimiento": "House Baratheon",
             "titulo": "King",
             "id_region": "1",
