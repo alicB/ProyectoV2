@@ -29,32 +29,37 @@ export default {
       }
       this.batallas = await this.$content("Batallas")
         .where({
-          'Nombre': {$contains:searchQuery},
+          'Nombre': {$contains:capitalizeFirstLetter(searchQuery)},
         })
         .fetch();
       this.personajes = await this.$content("Personajes")
         .where({
-          'nombre': {$contains:searchQuery},
+          'nombre': {$contains:capitalizeFirstLetter(searchQuery)},
         })
         .fetch();
       this.regiones = await this.$content("Regiones")
         .where({
-          'nombre': {$contains:searchQuery},
+          'nombre': {$contains:capitalizeFirstLetter(searchQuery)},
         })
         .fetch();
       this.lugares = await this.$content("Places")
         .where({
-          'nombre': {$contains:searchQuery},
+          'nombre': {$contains:capitalizeFirstLetter(searchQuery)},
         })
         .fetch();
       this.casas = await this.$content("Casas")
         .where({
-          'nombre': {$contains:searchQuery},
+          'nombre': {$contains:capitalizeFirstLetter(searchQuery)},
         })
         .fetch();
     },
   },
 };
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 </script>
   
 <template>
