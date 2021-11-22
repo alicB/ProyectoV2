@@ -43,6 +43,16 @@ const state = () => ({
         error: null,
         data: {}
     },
+	places: {
+        status: STATUS_TYPES.INIT,
+        error: null,
+        data: []
+    },
+    place: {
+        status: STATUS_TYPES.INIT,
+        error: null,
+        data: {}
+    },
 	
     prevNext: {
         status: STATUS_TYPES.INIT,
@@ -90,6 +100,15 @@ const mutations = {
         state.region.data = payload
         state.region.status = STATUS_TYPES.SUCCESS
     },
+
+	GET_PLACES(state, payload) {
+        state.places.data = payload
+        state.places.status = STATUS_TYPES.SUCCESS
+    },
+    GET_PLACE(state, payload) {
+        state.place.data = payload
+        state.place.status = STATUS_TYPES.SUCCESS
+    },
     GET_READ_MORE(state, payload) {
         state.readMore.data = payload
         state.readMore.status = STATUS_TYPES.SUCCESS
@@ -109,6 +128,8 @@ const getters = {
     getCasa: (state) => parsesJSON(state.casa),
 	getRegiones: (state) => parsesJSON(state.regiones),
     getRegion: (state) => parsesJSON(state.region),
+	getPlaces: (state) => parsesJSON(state.places),
+    getPlace: (state) => parsesJSON(state.place),
     getPrevNext: (state) => parsesJSON(state.prevNext),
     getReadMore: (state) => parsesJSON(state.readMore)
 };
@@ -153,6 +174,16 @@ const actions = {
         const storeRegion = await this.$content('Regiones', params.slug).fetch()
         console.log(storeRegion);
         commit('GET_REGION', storeRegion)
+    },
+	async getPlaces({ commit }, params, callback) {
+        const storePlaces = await this.$content('Places')
+            .fetch()
+        commit('GET_PLACES', storePlaces)
+    },
+    async getPlace({ commit }, params, callback) {
+        const storePlace = await this.$content('Places', params.slug).fetch()
+        console.log(storePlace);
+        commit('GET_PLACE', storePlace)
     },
     async getPrevNext({ commit }, params, callback) {
         const [prev, next] = await this.$content('Batallas')
