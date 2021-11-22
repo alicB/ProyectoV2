@@ -1,4 +1,4 @@
- [
+[
         {
             "id": "1",
             "nombre": "Joffrey Baratheon",
@@ -283,5 +283,35 @@
             "muerte": "Still alive",
             "slug": "personaje19",
             "image": "personaje_19.png"
+        },
+        {
+            "id": "20",
+            "nombre": "Daenerys Targaryen",
+            "id_casa": "19",
+            "casa_nacimiento": "House Targaryen",
+            "titulo": "Queen",
+            "id_region": "1",
+            "region": "The Westerlands",
+            "descripcion": "Daenerys is the youngest child of King Aerys II Targaryen and his sister-wife, Queen Rhaella. Daenerys was conceived during the last month of Robert's Rebellion, the war which ended House Targaryen's reign over the Seven Kingdoms. Shortly thereafter, her mother was sent with the young prince Viserys to the family ancestral seat of Dragonstone to escape the rebel army which was marching towards King's Landing. Daenerys was born nine months after their flight, while a great storm raged above Dragonstone, sinking what remained of the Targaryen fleet; for this reason she is known as \"Daenerys Stormborn\". Her mother died in labor, but not before naming her",
+            "lealtad": "House Targaryen",
+            "edad": "14",
+            "muerte": "Still alive",
+            "slug": "personaje20",
+            "image": "personaje_20.png"
+        },
+        {
+            "id": "21",
+            "nombre": "Jon Umber",
+            "id_casa": "20",
+            "casa_nacimiento": "House Umber",
+            "titulo": "Lord",
+            "id_region": "3",
+            "region": "The North",
+            "descripcion": "Jon Umber, known as Greatjon Umber and the Greatjon, is Lord of the Last Hearth and head of House Umber, a vassal family to the Starks of Winterfell. His eldest son, also named Jon, is called the Smalljon. ",
+            "lealtad": "House Stark",
+            "edad": "Unknown",
+            "muerte": "Still alive",
+            "slug": "personaje21",
+            "image": "personaje_21.png"
         }
     ]

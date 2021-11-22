@@ -1,4 +1,4 @@
- [
+[
         {
             "id": "1",
             "nombre": "House Lannister",
@@ -208,5 +208,29 @@
             "lema": "A flock of ravens surrounding a black shield charged with a dead weirwood, on a scarlet field",
             "slug": "casa18",
             "image": "casa_18.png"
+        },
+        {
+            "id": "19",
+            "nombre": "House Targaryen",
+            "id_personaje": "20",
+            "dirigente": "Daenerys Targaryen",
+            "id_region": "1",
+            "region": "The Westerlands",
+            "vasallos": "None",
+            "lema": "Fire and Blood",
+            "slug": "casa19",
+            "image": "casa_19.png"
+        },
+        {
+            "id": "20",
+            "nombre": "House Umber",
+            "id_personaje": "21",
+            "dirigente": "Jon Umber",
+            "id_region": "3",
+            "region": "The North",
+            "vasallos": "None",
+            "lema": "None",
+            "slug": "casa20",
+            "image": "casa_20.png"
         }
     ]

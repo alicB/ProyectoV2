@@ -1,0 +1,182 @@
+[
+        {
+            "id": "1",
+            "nombre": "Golden Tooth",
+            "descripcion": "The Golden Tooth is the seat of the Leffords, a family formed by the union of First Men and Andals. Cerion Lannister, a King of the Rock, conquered the hilly vicinity of the Tooth by defeating three petty kings. The gold from the Tooth helped establish House Lannister as one of the richest houses in Westeros. Ser Joffrey Doggett controlled much of the land north of the Golden Tooth during the Faith Militant uprising.",
+            "id_region": "1",
+            "region": "The Westerlands",
+            "slug": "place1",
+            "image": "place_1.png"
+        },
+        {
+            "id": "2",
+            "nombre": "Mummer's Ford",
+            "descripcion": "The Mummer's Ford is a town in the Riverlands, the region controlled by House Frey of the Twins",
+            "id_region": "2",
+            "region": "The Riverlands",
+            "slug": "place2",
+            "image": "place_2.png"
+        },
+        {
+            "id": "3",
+            "nombre": "Riverrun",
+            "descripcion": "Riverrun is the seat of House Tully, the Lord Paramounts of the Trident and the Riverlands. It was built as an island fortress by Axel Tully. Prior to the War of the Five Kings, Lord Hoster Tully is the Lord of Riverrun. Petyr Baelish recalls being fostered at Riverrun during his childhood and being enamoured by its high walls",
+            "id_region": "2",
+            "region": "The Riverlands",
+            "slug": "place3",
+            "image": "place_3.png"
+        },
+        {
+            "id": "4",
+            "nombre": "Green Fork",
+            "descripcion": "About six hundred years ago, the Freys began construction of a bridge spanning the northern Green Fork, where it runs high and fast. The ironborn under the Kings of the Isles and the Rivers used the Trident and its tributaries to quickly traverse the riverlands.",
+            "id_region": "2",
+            "region": "The Riverlands",
+            "slug": "place4",
+            "image": "place_4.png"
+        },
+        {
+            "id": "5",
+            "nombre": "Whispering Wood",
+            "descripcion": "The Whispering Wood is a forested valley in the northwestern riverlands. It is named after a battle which takes place in it, the battle in the Whispering Wood.",
+            "id_region": "2",
+            "region": "The Riverlands",
+            "slug": "place5",
+            "image": "place_5.png"
+        },
+        {
+            "id": "6",
+            "nombre": "Deepwood Motte",
+            "descripcion": "Deepwood Motte is the stronghold of House Glover, a vassal house holding fealty to House Stark of Winterfell. The castle is located north-west of Winterfell in the Wolfswood, near the coast of the Bay of Ice.",
+            "id_region": "3",
+            "region": "The North",
+            "slug": "place6",
+            "image": "place_6.png"
+        },
+        {
+            "id": "7",
+            "nombre": "Darry",
+            "descripcion": "Darry or Castle Darry is the seat of House Darry in the riverlands. Though old, Darry is a relatively small castle.",
+            "id_region": "2",
+            "region": "The Riverlands",
+            "slug": "place7",
+            "image": "place_7.png"
+        },
+        {
+            "id": "8",
+            "nombre": "Moat Cailin",
+            "descripcion": "Moat Cailin, sometimes called the Moat,is an ancient stronghold of the First Men on the northern edge of the great swamp known as the Neck, in the south of the north. It is less than twenty miles from the headwaters of the Fever River. Moat Cailin is one of the north's most important strongholds, though much of it now stands in ruins. It commands the causeway, the safe route for armies to travel through the swamps of the Neck.",
+            "id_region": "3",
+            "region": "The North",
+            "slug": "place8",
+            "image": "place_8.png"
+        },
+        {
+            "id": "9",
+            "nombre": "Stony Shore",
+            "descripcion": "The Stony Shore is a region along the western coast of the North.It is sparsely populated with some inhabitants living in fishing villages.",
+            "id_region": "3",
+            "region": "The North",
+            "slug": "place9",
+            "image": "place_9.png"
+        },
+        {
+            "id": "10",
+            "nombre": "Torrhen's Square",
+            "descripcion": "Torrhen's Square is a castle in the north and the seat of House Tallhart. It is south of the wolfswood, southwest of Winterfell, and north of Barrowton, on the northern shore of a large lake. A river from the lake leads south to the Saltspear.",
+            "id_region": "3",
+            "region": "The North",
+            "slug": "place10",
+            "image": "place_10.png"
+        },
+        {
+            "id": "11",
+            "nombre": "Winterfell",
+            "descripcion": "Torrhen's Square is a castle in the north and the seat of House Tallhart. It is south of the wolfswood, southwest of Winterfell, and north of Barrowton, on the northern shore of a large lake. A river from the lake leads south to the Saltspear.",
+            "id_region": "3",
+            "region": "The North",
+            "slug": "place11",
+            "image": "place_11.png"
+        },
+        {
+            "id": "12",
+            "nombre": "Oxcross",
+            "descripcion": "Oxcross is a village not three days ride from Lannisport in the westerlands.[1] It is located near the pass beneath the Golden Tooth.",
+            "id_region": "1",
+            "region": "The Westerlands",
+            "slug": "place12",
+            "image": "place_12.png"
+        },
+        {
+            "id": "13",
+            "nombre": "Storm's End",
+            "descripcion": "Storm's End is the seat of House Baratheon, the Lords Paramount of the Stormlands. The castle is located at Durran's Point on the northern coast of Shipbreaker Bay, south of Bronzegate and northeast of Griffin's Roost. The kingsroad runs north from Storm's End through the stormlands to King's Landing, the capital of the Seven Kingdoms.",
+            "id_region": "4",
+            "region": "The Stormlands",
+            "slug": "place13",
+            "image": "place_13.png"
+        },
+        {
+            "id": "14",
+            "nombre": "Red Fork",
+            "descripcion": "The Red Fork is one of the three main rivers of the Trident in the riverlands, the other two being the Blue Fork and the Green Fork. It is named after the mud and silt from the western mountains. Ser Brynden Tully considers the red mud to be colored Tully red.",
+            "id_region": "2",
+            "region": "The Riverlands",
+            "slug": "place14",
+            "image": "place_14.png"
+        },
+        {
+            "id": "15",
+            "nombre": "Harrenhal",
+            "descripcion": "Harrenhal, the largest castle in the Seven Kingdoms, is the seat of House Whent in the riverlands, on the north shore of the Gods Eye. Since the burning of Harrenhal by dragonfire in Aegon's Conquest, however, the castle has become a dark and ruinous place.",
+            "id_region": "2",
+            "region": "The Riverlands",
+            "slug": "place15",
+            "image": "place_15.png"
+        },
+        {
+            "id": "16",
+            "nombre": "Crag",
+            "descripcion": "The Crag is the seat of House Westerling in the westerlands. It is more of a ruin than a castle as the Westerlings no longer have the funds to maintain it. It sits along the coast of the Sunset Sea, south of Banefort, northwest of Ashemark, and northeast of Fair Isle.",
+            "id_region": "1",
+            "region": "The Westerlands",
+            "slug": "place16",
+            "image": "place_16.png"
+        },
+        {
+            "id": "17",
+            "nombre": "King's Landing",
+            "descripcion": "King's Landing is the capital of the Seven Kingdoms, located in the crownlands on the east coast of Westeros. It is situated along the kingsroad at the mouth of the Blackwater Rush and overlooks Blackwater Bay. King's Landing is the site of the Iron Throne and the Red Keep, which is the seat of the king, Robert I from House Baratheon of King's Landing.",
+            "id_region": "5",
+            "region": "The Crownlands",
+            "slug": "place17",
+            "image": "place_17.png"
+        },
+        {
+            "id": "18",
+            "nombre": "Duskendale",
+            "descripcion": "Duskendale is a large port town off the coast of Blackwater Bay. It is located northeast of King's Landing and Rosby in the crownlands. Formerly ruled by the Darklyns, it is now the seat of House Rykker.",
+            "id_region": "5",
+            "region": "The Crownlands",
+            "slug": "place18",
+            "image": "place_18.png"
+        },
+        {
+            "id": "19",
+            "nombre": "Castle Black",
+            "descripcion": "Castle Black is the main stronghold of the Night's Watch and the seat of their Lord Commander.The castle is situated along the Wall between Queensgate to the west and Oakenshield to the east, near the center of the Wall, at the northern end of the kingsroad. The village of Mole's Town is located half a league to the south along the kingsroad.",
+            "id_region": "3",
+            "region": "The North",
+            "slug": "place19",
+            "image": "place_19.png"
+        },
+        {
+            "id": "20",
+            "nombre": "The Twins",
+            "descripcion": "The Twins, sometimes known as the Crossing, is the seat of House Frey in the northern riverlands. It is a fortified crossing of the Green Fork of the Trident and consists of two identical castles and a tower in the middle of their bridge. It is one of the most formidable strongholds of the Seven Kingdoms.",
+            "id_region": "2",
+            "region": "The Riverlands",
+            "slug": "place20",
+            "image": "place_20.png"
+        }
+    ]
