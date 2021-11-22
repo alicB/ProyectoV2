@@ -85,7 +85,7 @@ table, th, td {
     <th colspan="2">Place</th>
   </tr>
   <tr>
-    <td> {{batalla.lugar}}, <NuxtLink :to="'/regiones/region'+batalla.region">{{batalla.region}}</NuxtLink></td>
+    <td> <NuxtLink :to="'/places/place'+batalla.id_lugar">{{batalla.lugar}}</NuxtLink>, <NuxtLink :to="'/regiones/region'+batalla.id_region">{{batalla.region}}</NuxtLink></td>
 	 
     
   </tr>
